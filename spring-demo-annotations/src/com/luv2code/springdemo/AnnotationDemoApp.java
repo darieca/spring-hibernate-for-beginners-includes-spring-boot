@@ -15,7 +15,6 @@ public class AnnotationDemoApp {
 		//get bean from spring container USING DEFAULT BEAN ID
 		Coach theCoach = context.getBean("tennisCoach", Coach.class);
 
-		
 		//call bean method
 		System.out.println(theCoach.getDailyWorkout());
 		System.out.println(theCoach.getDailyFortune());
