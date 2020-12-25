@@ -13,5 +13,8 @@
 	customer free pass count: ${customer.freePasses}
 	<br><br>
 	customer postal codee: ${customer.postalCode}
+	
+	<br><br>
+	Course codee: ${customer.courseCode}
 </body>
 </html>
