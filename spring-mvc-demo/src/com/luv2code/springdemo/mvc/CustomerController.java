@@ -37,6 +37,11 @@ public class CustomerController {
 			BindingResult theBindingResult) {
 		
 		System.out.println("Last name: |" + theCustomer.getLastName() + "|");
+		
+		// binding result work with message.roperties custom message
+		// from specific to generic - "overriding messsage"
+		System.out.println("Binding result: " + theBindingResult +"\n\n");
+		
 		if(theBindingResult.hasErrors()) {
 			return "customer-form";
 		} else {
